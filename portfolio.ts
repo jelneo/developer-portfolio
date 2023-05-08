@@ -12,7 +12,7 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Jelena: Welcome',
+  name: 'Jelena Neo',
   title: "Hi everyone, I'm Jelena",
   description:
     "I'm a software engineer having experience developing the backend for applications using Go, Python, MySQL. For web applications, I've worked with Django, JavaScript, VueJS.",
@@ -76,7 +76,7 @@ export const skillsSection: SkillsSectionType = {
 
         {
           skillName: 'MySQL',
-          fontAwesomeClassName: 'logos:file-type-mysql',
+          fontAwesomeClassName: 'vscode-icons:file-type-mysql',
         },
         {
           skillName: 'NPM',
@@ -220,7 +220,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer (Backend)',
     company: 'Shopee Singapore',
-    companyLogo: '/img/icons/common/shopee.png',
+    companyLogo: '/img/icons/common/shopee1.png',
     date: 'Jun 2020 – Current',
     desc: 'In my previous team, I worked as backend software developer to develop API services in Go to integrate with payment gateways. Currently, I am in the wallet services team that is in charge of shoeepay wallets.',
   },
@@ -245,7 +245,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Summer Analyst',
     company: 'Bank of America Merill Lynch',
-    companyLogo: '/img/icons/common/boaml.png',
+    companyLogo: '/img/icons/common/boaml.jpeg',
     date: 'Jul 2018 - Aug 2018',
     desc: 'Worked to enhance efficiency of software deployment for the global EFX team by adding more functionalities to existing Jenkins Continuous Delivery (CD) pipeline.',
   },
@@ -281,21 +281,17 @@ export const projects: ProjectType[] = [
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;
 
-// // See object prototype on /types/section.ts page
-// export const seoData: SEODataType = {
-//   title: 'Hanzla Tauqeer',
-//   description:
-//     'A passionate Full Stack Web Developer and Blockchain Developer.',
-//   author: 'Hanzla Tauqeer',
-//   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-//   url: 'https://developer-portfolio-1hanzla100.vercel.app',
-//   keywords: [
-//     'Hanzla',
-//     'Hanzla Tauqeer',
-//     '@1hanzla100',
-//     '1hanzla100',
-//     'Portfolio',
-//     'Hanzla Portfolio ',
-//     'Hanzla Tauqeer Portfolio',
-//   ],
-// };
+// See object prototype on /types/section.ts page
+export const seoData: SEODataType = {
+  title: 'Jelena Neo',
+  description:
+    'I am a software engineer having experience developing the backend for applications using Go, Python, MySQL.',
+  author: 'Jelena Neo',
+  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  url: 'https://jelneo.github.io/developer-portfolio',
+  keywords: [
+    'Jelena',
+    'Jelena Neo',
+    'jelneo',
+  ],
+};
