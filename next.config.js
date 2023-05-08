@@ -1,6 +1,12 @@
-module.exports = {
-  reactStrictMode: false,
+/**
+* @type {import('next').NextConfig}
+*/
+const nextConfig = {
   images: {
-    domains: ['avatars.githubusercontent.com'],
+    loader: 'akamai',
+    path: '',
   },
+  assetPrefix: './',
 };
+
+export default nextConfig;
