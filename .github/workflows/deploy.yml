@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         run: |
-          npm ci
+          yarn
           npm run build
           npm run export
           touch out/.nojekyll
