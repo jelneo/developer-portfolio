@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Jelena Neo',
   title: "Hi everyone, I'm Jelena",
   description:
-    "I'm a software engineer having experience developing the backend for applications using Go, Python, MySQL. For web applications, I've worked with Django, JavaScript, VueJS.",
+    "I'm a software engineer with experience developing the backend for applications using Go, Python, MySQL. For web applications, I've worked with Django, JavaScript, NextJS and VueJS.",
   resumeLink:
     '',
 };
@@ -201,7 +201,7 @@ export const showContactUs: boolean = true;
 export const seoData: SEODataType = {
   title: 'Jelena Neo',
   description:
-    'I am a software engineer having experience developing the backend for applications using Go, Python, MySQL.',
+    'I am a software engineer with experience developing the backend for applications using Go, Python, MySQL.',
   author: 'Jelena Neo',
   image: 'https://avatars.githubusercontent.com/u/28497440?v=4',
   url: 'https://jelneo.github.io/developer-portfolio',
