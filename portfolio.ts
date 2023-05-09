@@ -38,7 +38,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: 'https://jelneo.github.io/developer-portfolio/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Building responsive and scalable microservices using Go, MySQL, caches and queueing mechanisms'),
         emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
@@ -220,14 +220,14 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer (Backend)',
     company: 'Shopee Singapore',
-    companyLogo: '/img/icons/common/shopee1.png',
+    companyLogo: 'https://jelneo.github.io/developer-portfolio/img/icons/common/shopee1.png',
     date: 'Jun 2020 – Current',
     desc: 'In my previous team, I worked as backend software developer to develop API services in Go to integrate with payment gateways. Currently, I am in the wallet services team that is in charge of shoeepay wallets.',
   },
   {
     role: 'Backend Software Engineer (Intern)',
     company: 'PayPal Singapore',
-    companyLogo: '/img/icons/common/paypal.png',
+    companyLogo: 'https://jelneo.github.io/developer-portfolio/img/icons/common/paypal.png',
     date: 'Jan 2019 – Jun 2019',
     desc: 'I worked to enhance REST API orchestration layer for card servicing component written in Java and extedned card services to support tokens e.g. Google pay, Samsung pay.',
     // descBullets: [
@@ -238,14 +238,14 @@ export const experience: ExperienceType[] = [
   {
     role: 'Teaching Assistant',
     company: 'NUS',
-    companyLogo: '/img/icons/common/nus.png',
+    companyLogo: 'https://jelneo.github.io/developer-portfolio/img/icons/common/nus.png',
     date: 'Aug 2018 - Nov 2018',
     desc: 'Worked as a teaching assistant in charge of supervising 2 teams of 5 students each in a software engineering module (CS2103 Software Engineering)',
   },
   {
     role: 'Summer Analyst',
     company: 'Bank of America Merill Lynch',
-    companyLogo: '/img/icons/common/boaml.jpeg',
+    companyLogo: 'https://jelneo.github.io/developer-portfolio/img/icons/common/boaml.jpeg',
     date: 'Jul 2018 - Aug 2018',
     desc: 'Worked to enhance efficiency of software deployment for the global EFX team by adding more functionalities to existing Jenkins Continuous Delivery (CD) pipeline.',
   },
