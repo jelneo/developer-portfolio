@@ -299,7 +299,7 @@ export const seoData: SEODataType = {
   description:
     'I am a software engineer having experience developing the backend for applications using Go, Python, MySQL.',
   author: 'Jelena Neo',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/28497440?v=4',
   url: 'https://jelneo.github.io/developer-portfolio',
   keywords: [
     'Jelena',
