@@ -88,103 +88,6 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    // {
-    //   title: 'Cloud Infra-Architecture',
-    //   lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-    //   skills: [
-    //     emoji('⚡ Experience of working on multiple cloud platforms'),
-    //     emoji(
-    //       '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-    //     ),
-    //     emoji(
-    //       '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-    //     ),
-    //   ],
-    //   softwareSkills: [
-    //     // ? Check README To get icon details
-    //     {
-    //       skillName: 'AWS',
-    //       fontAwesomeClassName: 'logos:aws',
-    //     },
-    //     {
-    //       skillName: 'Azure',
-    //       fontAwesomeClassName: 'logos:microsoft-azure',
-    //     },
-    //     {
-    //       skillName: 'Heroku',
-    //       fontAwesomeClassName: 'logos:heroku-icon',
-    //     },
-    //     {
-    //       skillName: 'PostgreSQL',
-    //       fontAwesomeClassName: 'logos:postgresql',
-    //     },
-    //     {
-    //       skillName: 'Github',
-    //       fontAwesomeClassName: 'akar-icons:github-fill',
-    //     },
-    //     {
-    //       skillName: 'Docker',
-    //       fontAwesomeClassName: 'logos:docker-icon',
-    //     },
-    //     {
-    //       skillName: 'Github Actions',
-    //       fontAwesomeClassName: 'logos:github-actions',
-    //     },
-    //     {
-    //       skillName: 'Cloudinary',
-    //       fontAwesomeClassName: 'logos:cloudinary',
-    //     },
-    //     {
-    //       skillName: 'Nginx',
-    //       fontAwesomeClassName: 'logos:nginx',
-    //     },
-    //     {
-    //       skillName: 'Sentry',
-    //       fontAwesomeClassName: 'logos:sentry-icon',
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: 'Blockchain',
-    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-    //   skills: [
-    //     emoji(
-    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-    //     ),
-    //     emoji(
-    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-    //     ),
-    //     emoji(
-    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-    //     ),
-    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-    //     emoji(
-    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-    //     ),
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: 'Ethereum',
-    //       fontAwesomeClassName: 'logos:ethereum',
-    //     },
-    //     {
-    //       skillName: 'Solidity',
-    //       fontAwesomeClassName: 'logos:solidity',
-    //     },
-    //     {
-    //       skillName: 'Web3js',
-    //       fontAwesomeClassName: 'logos:web3js',
-    //     },
-    //     {
-    //       skillName: 'Metamask',
-    //       fontAwesomeClassName: 'logos:metamask-icon',
-    //     },
-    //     {
-    //       skillName: 'Ganache',
-    //       fontAwesomeClassName: 'logos:ganache-icon',
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -208,11 +111,12 @@ export const educationInfo: EducationType[] = [
     schoolName: 'National University of Singapore (NUS)',
     subHeader: 'Bachelor of Engineering (Computer Engineering)',
     duration: 'August 2016 - July 2020',
-    desc: '',
+    desc: 'Relevant coursework: Data Structures and Algorithms, Software Engineering, Programming for Computer Interfaces, Computer Networks, Real-time Operating Systems, Data Science for the Internet of Things, Internet Architecture, Database Systems',
     grade: 'Honours',
-    // descBullets: [
-      
-    // ],
+    descBullets: [
+      'CAP: 4.45 out of 5',
+      'National University of Singapore ECE scholarship',
+    ],
   },
 ];
 
