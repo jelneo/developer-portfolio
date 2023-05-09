@@ -255,7 +255,7 @@ export const projects: ProjectType[] = [
   {
     name: 'Food Delivery Service Web App (2020)',
     desc: 'School project for CS2102 Database Systems. The task was to develop a database application for a food delivery service (FDS) which allows customers to order food from restaurants and have them delivered to their locations by delivery riders. Tech stack: avascript, VueJS, ExpressJS, PostgreSQL',
-    imgPath: 'img/icons/common/fds.jpg',
+    imgPath: 'https://jelneo.github.io/developer-portfolio/img/icons/common/fds.jpg',
     githubFirst: {
       link: 'https://github.com/whenzei/fds-frontend/commits?author=jelneo',
       label: 'frontend'
