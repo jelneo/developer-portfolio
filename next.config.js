@@ -4,8 +4,9 @@
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
-let assetPrefix = ''
-let basePath = '/'
+// For running on local
+let assetPrefix = '/'
+let basePath = ''
 
 if (isGithubActions) {
   // trim off `<owner>/`
@@ -13,7 +14,6 @@ if (isGithubActions) {
 
   assetPrefix = `/${repo}/`
   basePath = `/${repo}`
-  console.log(assetPrefix)
 }
 
 module.exports = {
