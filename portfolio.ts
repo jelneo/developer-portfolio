@@ -255,17 +255,29 @@ export const projects: ProjectType[] = [
   {
     name: 'Food Delivery Service Web App (2020)',
     desc: 'School project for CS2102 Database Systems. The task was to develop a database application for a food delivery service (FDS) which allows customers to order food from restaurants and have them delivered to their locations by delivery riders. Tech stack: avascript, VueJS, ExpressJS, PostgreSQL',
-    github: 'https://github.com/whenzei/fds-frontend/commits?author=jelneo',
-    github: 'https://github.com/whenzei/fds-backend/commits?author=jelneo',
+    imgPath: 'img/icons/common/fds.jpg',
+    githubFirst: {
+      link: 'https://github.com/whenzei/fds-frontend/commits?author=jelneo',
+      label: 'frontend'
+    },
+    githubSecond: {
+      link: 'https://github.com/whenzei/fds-backend/commits?author=jelneo',
+      label: 'backend'
+    }
   },
   {
     name: 'Interactive Visualizations for Chicago ‘L’ Station Ridership (2019)',
     desc: 'Won 2nd place in Global IoT Datathon October 2019. Visualize metro ridership through interactive Plotly charts (calendar heat maps, box plots, etc.). Breaks down ridership data into three granularity levels: year, month and day, and station levels to visualize trends at broader or finer levels',
-    github: 'https://github.com/jelneo/Interactive-Visualizations-for-Chicago-L-Station-Ridership',
+    githubFirst: {
+      link: 'https://github.com/jelneo/Interactive-Visualizations-for-Chicago-L-Station-Ridership',
+      label: '',
+    }
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
+export const feedbacks: FeedbackType[] = [];
+
+// export const feedbacks: FeedbackType[] = [
   // {
   //   name: 'John Smith',
   //   feedback:
@@ -276,7 +288,7 @@ export const feedbacks: FeedbackType[] = [
   //   feedback:
   //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
   // },
-];
+// ];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;

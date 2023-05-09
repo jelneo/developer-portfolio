@@ -73,10 +73,17 @@ export type ExperienceType = {
 
 // * PROJECT SECTION
 
+export type GithubLinkType = {
+  link?: string;
+  label?: string;
+}
+
 export type ProjectType = {
   name: string;
   desc: string;
-  github?: string;
+  githubFirst?: GithubLinkType;
+  githubSecond?: GithubLinkType;
+  imgPath?: string;
   link?: string;
 };
 
