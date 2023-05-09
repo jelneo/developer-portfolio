@@ -1,14 +1,8 @@
-// @ts-check
+const repo = 'developer-portfolio'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}` 
 
-/**
- * @type {import('next').NextConfig}
- **/
-const nextConfig = {
-  output: 'export',
-  basePath: '/developer-portfolio',
-  experimental: {
-    appDir: true,
-  },
+module.exports = {
+  assetPrefix: assetPrefix,
+  basePath: basePath,
 }
-
-module.exports = nextConfig
