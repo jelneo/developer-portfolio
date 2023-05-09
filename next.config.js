@@ -10,3 +10,11 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+
+module.exports = {
+  reactStrictMode: false,
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
+};
