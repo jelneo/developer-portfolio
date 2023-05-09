@@ -1,3 +1,7 @@
+/**
+ * @type {import('next').NextConfig}
+ */
+
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 let assetPrefix = ''
@@ -12,6 +16,7 @@ if (isGithubActions) {
 }
 
 module.exports = {
+  output: 'export',
   reactStrictMode: false,
   assetPrefix: assetPrefix,
   basePath: basePath,
