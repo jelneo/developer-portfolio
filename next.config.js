@@ -1,9 +1,14 @@
-const isProd = process.env.NODE_ENV === 'production'
+// @ts-check
 
-module.exports = {
-  assetPrefix: isProd ? '/developer-portfolio/' : '',
-  images: {
-    unoptimized: true,
-    domains: ['avatars.githubusercontent.com'],
+/**
+ * @type {import('next').NextConfig}
+ **/
+const nextConfig = {
+  output: 'export',
+  basePath: '/developer-portfolio',
+  experimental: {
+    appDir: true,
   },
-};
+}
+
+module.exports = nextConfig
