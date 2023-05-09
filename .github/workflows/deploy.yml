@@ -24,9 +24,7 @@ jobs:
       - name: Build
         run: |
           yarn
-          npm run build
-          npm run export
-          touch out/.nojekyll
+          npm run deploy
 
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
